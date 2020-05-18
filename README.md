@@ -10,10 +10,6 @@ M300 Services von Tim Bühlmann
 - [x] 4. Git-Client
 - [x] 5. SSH-Key für Client erstellen
 
-### 1. Vagrant
+### 1. Virtualbox
 
-```
-Tim (hosttech)@NB-TimB MINGW32 /c/Daten/vm/Apache2
-$ vagrant.exe -v
-Vagrant 2.2.9
-```
+Die Oracle Virtualbox habe ich bereits vor diesem Modul gebraucht. Somit hatte ich diese bereits installiert. Dies sollte der folgenden Screenshot zeigen.
