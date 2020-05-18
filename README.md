@@ -11,3 +11,9 @@ M300 Services von Tim Bühlmann
 - [x] 5. SSH-Key für Client erstellen
 
 ### 1. Vagrant
+
+```
+Tim (hosttech)@NB-TimB MINGW32 /c/Daten/vm/Apache2
+$ vagrant.exe -v
+Vagrant 2.2.9
+```
