@@ -16,6 +16,8 @@ Die Oracle Virtualbox habe ich bereits vor diesem Modul gebraucht. Somit hatte i
 ![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/Virtualbox.png "Virtualbox")
 
 ### 2. Vagrant
+Im unteren Screenshot sehen Sie, dass Vagrant korrekt installiert wurde. Dort wird auch gleich kurz die verwendete Vagrant Version angezeigt.
+![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/Virtualbox.png "Vagrant")
 
 ### 3. Visualstudio-Code
 
