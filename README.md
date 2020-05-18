@@ -14,3 +14,11 @@ M300 Services von Tim Bühlmann
 
 Die Oracle Virtualbox habe ich bereits vor diesem Modul gebraucht. Somit hatte ich diese bereits installiert. Dies sollte der folgenden Screenshot zeigen.
 ![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/Virtualbox.png "Virtualbox")
+
+### 2. Vagrant
+
+### 3. Visualstudio-Code
+
+### 4. Git-Client
+
+### 5. SSH-Key für Client erstellen
