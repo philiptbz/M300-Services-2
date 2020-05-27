@@ -31,7 +31,11 @@ Ich habe Visualstudio Code mit den folgenden Erweiterunten installiert. Dies hat
 - vscode-pdf Extension (von tomiko1207)
 
 ### 4. Git-Client
+Im unteren Screenshot sieht man, dass der Git Client korrekt installiert wurde. Zudem wird auch die verwendete Version des Git-Clients angezeigt.
 
 ![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/git-client.png "Git-Client")
 
 ### 5. SSH-Key für Client erstellen
+Im unteren Screenshot sehen Sie die Ausgabe des Befehls "ssh -v git@github.com". Dort ist auch gekennzeichnet, dass ich erfolgreich verbunden wurde. Dies habe ich im Screenshot auch rot markiert, sodass man dies direkt auf den ersten Blick sieht.
+
+![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/ssh-key.png "SSH-Key")
