@@ -23,6 +23,13 @@ Im unteren Screenshot sehen Sie, dass Vagrant korrekt installiert wurde. Dort wi
 
 ### 3. Visualstudio-Code
 
+Ich habe Visualstudio Code mit den folgenden Erweiterunten installiert. Dies hat problemlos funktioniert.
+
+
+- Markdown All in One (von Yu Zhang)
+- Vagrant Extension (von Marco Stanzi)
+- vscode-pdf Extension (von tomiko1207)
+
 ### 4. Git-Client
 
 ### 5. SSH-Key für Client erstellen
