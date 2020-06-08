@@ -111,3 +111,10 @@ In der Umgebung der VM für die LB02 habe ich die folgenden Punkte eingerichetet
 Dass diese Punkte gemacht wurden, werden Sie dann im Vagrant-File und in der Demo noch sehen.
 
 ### 4. Funktionsweise getestet inkl. Dokumentation der Testfälle
+
+
+### 5. andere, vorgefertigte vm auf eigenem Notebook aufgesetzt
+
+
+### 6. Projekt mit Git und Mark Down dokumentiert
+Wie man anhand der Dokumentation hier sehen kann, habe ich alles mit Git und Mark Down schön und sauber aufgeführt.
