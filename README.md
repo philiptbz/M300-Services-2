@@ -1,6 +1,8 @@
 # M300-Services
 M300 Services von Tim Bühlmann
 
+Ich habe jeweils diese Kriterien in der Dokumentation eingefügt, welche ich auch gelöst habe. Hier habe ich darauf geschaut, dass mindestens vier Kriterien erledigt wurden.
+
 # Einrichtung der Umgebung
 
 ## 1. Kriterium
@@ -39,3 +41,13 @@ Im unteren Screenshot sieht man, dass der Git Client korrekt installiert wurde. 
 Im unteren Screenshot sehen Sie die Ausgabe des Befehls ```ssh -v git@github.com```. Dort ist auch gekennzeichnet, dass ich erfolgreich verbunden wurde. Dies habe ich im Screenshot auch rot markiert, sodass man dies direkt auf den ersten Blick sieht.
 
 ![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/ssh-key.png "SSH-Key")
+
+## 2. Kriterium
+- [x] 1. GitHub oder Gitlab-Account ist erstellt
+- [x] 2. Git-Client wurde verwendet
+- [x] 3. Dokumentation ist als Mark Down vorhanden
+- [x] 4. Mark down-Editor ausgewählt und eingerichtet
+- [x] 5. Mark down ist strukturiert
+
+### 1. GitHub oder Gitlab-Account ist erstellt
+Der Github Account wurde erstellt. Das Profil ist unter dem folgenden Link aufrufbar: https://github.com/tbztim
