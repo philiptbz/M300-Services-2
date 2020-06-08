@@ -78,7 +78,22 @@ Wichtige Lernschritte habe ich jeweils im Mark Down festgehalten. Dies kann man 
 - [x] 5. andere, vorgefertigte vm auf eigenem Notebook aufgesetzt
 - [x] 6. Projekt mit Git und Mark Down dokumentiert
 
-## 1. Bestehende vm aus Vagrant-Cloud einrichten
+### 1. Bestehende vm aus Vagrant-Cloud einrichten
 Eine bestehende VM kann aus dem Verzeichnis, indem die VM liegt bzw. indem das Vagrant-File liegt, gestartet werden. Hierzu muss in diesem Verzeichnis die Git-Bash geöffnet werden. Danach muss der folgende Befehl eingegeben werden.
 
 ```vagrant up```
+
+### 2. Kennt die Vagrant-Befehle
+Hier sind die wichtigsten Vagrant-Befehl ausgelistet.
+
+Befehl            | Funktion
+----------------- | -------------
+`vagrant up`	  | Startet vagrant Umgebung
+`vagrant resume`  | Setzt eine suspendierte Maschine fort.
+`vagrant reload`  | Startet die VM neu, liest das Config File neu ein
+`vagrant ssh`     | Verbinden zu einer Maschine via SSH
+`vagrant halt`    | Stopt die vagrant Maschine
+`vagrant suspend` | suspendiert eine VM
+`vagrant destroy` | Stopt und löscht die gesamte VM
+`vagrant -v`      | Zeigt die vagrant Version an
+`vagrant status`  | Gibt den Stataus einer VM aus.
