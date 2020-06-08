@@ -111,7 +111,7 @@ In der Umgebung der VM für die LB02 habe ich die folgenden Punkte eingerichetet
 Dass diese Punkte gemacht wurden, werden Sie dann im Vagrant-File und in der Demo noch sehen.
 
 ### 4. Funktionsweise getestet inkl. Dokumentation der Testfälle
-
+Die ausgeführten VM's haben bei mir immer sehr gut funtkioniert. Da es sich am Anfang um Beispiele gehandelt hat, haben diese immer funktioniert. Meine eigenen Scripts haben am Anfang nicht immer funktioniert. Doch nach einigen versuchen konnte ich dann auch meine eigenen Scripts zum laufen bringen. Diese haben dann auch immer funktioniert. :)
 
 ### 5. andere, vorgefertigte vm auf eigenem Notebook aufgesetzt
 Ich habe noch eine weitere VM auf dem Notebook aufgesetzt. Hierbei habe ich das Vagrant-File, welches unter dem folgenden Pfad liegt ausgeführt.
