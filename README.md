@@ -50,4 +50,4 @@ Im unteren Screenshot sehen Sie die Ausgabe des Befehls ```ssh -v git@github.com
 - [x] 5. Mark down ist strukturiert
 
 ### 1. GitHub oder Gitlab-Account ist erstellt
-Der Github Account wurde erstellt. Das Profil ist unter dem folgenden Link aufrufbar: https://github.com/tbztim
+Der Github Account wurde erstellt. Das Profil ist unter dem folgenden Link aufrufbar: ![Github tbztim](https://github.com/tbztim)
