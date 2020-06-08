@@ -69,3 +69,16 @@ Ich finde, dass mein Mark Down sehr gut strukturiert ist und ich dieses Kriteriu
 
 ### 6. Wichtige Lernschritte sind dokumentiert
 Wichtige Lernschritte habe ich jeweils im Mark Down festgehalten. Dies kann man anhand meiner Dokumentation sehen.
+
+## 3. Kriterium
+- [x] 1. Bestehende vm aus Vagrant-Cloud einrichten
+- [x] 2. Kennt die Vagrant-Befehle
+- [x] 3. Eingerichtete Umgebung ist dokumentiert (Umgebungs-Variablen, Netzwerkplan gezeichnet, Sicherheitsaspekte)
+- [x] 4. Funktionsweise getestet inkl. Dokumentation der Testfälle
+- [x] 5. andere, vorgefertigte vm auf eigenem Notebook aufgesetzt
+- [x] 6. Projekt mit Git und Mark Down dokumentiert
+
+## 1. Bestehende vm aus Vagrant-Cloud einrichten
+Eine bestehende VM kann aus dem Verzeichnis, indem die VM liegt bzw. indem das Vagrant-File liegt, gestartet werden. Hierzu muss in diesem Verzeichnis die Git-Bash geöffnet werden. Danach muss der folgende Befehl eingegeben werden.
+
+```vagrant up```
