@@ -122,3 +122,27 @@ Diese VM habe ich mit dem Befehl `vagrant up` gestartet. Auch hier musste ich im
 
 ### 6. Projekt mit Git und Mark Down dokumentiert
 Wie man anhand der Dokumentation hier sehen kann, habe ich alles mit Git und Mark Down schön und sauber aufgeführt.
+
+## 4. Kriterium
+- [x] 1. Firewall eingerichtet inkl. Rules
+- [x] 2. Reverse-Proxy eingerichtet
+- [x] 3. Benutzer- und Rechtevergabe ist eingerichtet
+- [x] 4. Sicherheitsmassnahmen sind dokumentiert
+- [x] 5. Projekt mit Git und Mark Down dokumentiert
+
+### 1. Firewall eingerichtet inkl. Rules
+Unter dem folgenden Screenshot wird der aktuelle Status der Firewall gezeigt. Dort ist auch ersichtlich, welche konfiguration gemacht wurde.
+
+![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/ufw-status.png "Firewall Status")
+
+### 2. Reverse-Proxy eingerichtet
+Im folgenden Screenshot wird die Reverse Procy konfiguration angezeigt. Hier wird die KOnfigurations-Datei angezeigt, welche im Script auch definiert wurde.
+
+![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/reverse-proxy.png "Reverse Proxy")
+
+### 3. Benutzer- und Rechtevergabe ist eingerichtet
+Im folgenden Screenshot werden die erstellten Benutzer und Gruppen angezeigt. Zudem wird auch direkt gezeigt, welcher Benutzer, welcher Gruppe zugeordnet wurde. Dies haben wir so im Vagrant-File definiert.
+
+![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/benutzer-gruppen.png "Benutzer Gruppen")
+
+### 4. Sicherheitsmassnahmen sind dokumentiert
