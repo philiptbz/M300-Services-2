@@ -3,6 +3,13 @@ M300 Services von Tim Bühlmann
 
 Ich habe jeweils diese Kriterien in der Dokumentation eingefügt, welche ich auch gelöst habe. Hier habe ich darauf geschaut, dass mindestens vier Kriterien erledigt wurden.
 
+# Inhaltsverzeichnis
+[1. Kriterium](#1-kriterium)
+[2. Kriterium](#2-kriterium)
+[3. Kriterium](#3-kriterium)
+[4. Kriterium](#4-kriterium)
+
+
 # Einrichtung der Umgebung
 
 ## 1. Kriterium
