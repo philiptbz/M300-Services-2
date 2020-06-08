@@ -114,7 +114,11 @@ Dass diese Punkte gemacht wurden, werden Sie dann im Vagrant-File und in der Dem
 
 
 ### 5. andere, vorgefertigte vm auf eigenem Notebook aufgesetzt
+Ich habe noch eine weitere VM auf dem Notebook aufgesetzt. Hierbei habe ich das Vagrant-File, welches unter dem folgenden Pfad liegt ausgeführt.
 
+![DB-Beispiel-VM](https://github.com/mc-b/M300/tree/master/vagrant/db)
+
+Diese VM habe ich mit dem Befehl `vagrant up` gestartet. Auch hier musste ich im Verzeichnis sein, in dem das Vagrant-File vorhanden war. Dies hat ohne Probleme geklappt.
 
 ### 6. Projekt mit Git und Mark Down dokumentiert
 Wie man anhand der Dokumentation hier sehen kann, habe ich alles mit Git und Mark Down schön und sauber aufgeführt.
