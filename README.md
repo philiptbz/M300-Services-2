@@ -73,7 +73,7 @@ Wichtige Lernschritte habe ich jeweils im Mark Down festgehalten. Dies kann man 
 ## 3. Kriterium
 - [x] 1. Bestehende vm aus Vagrant-Cloud einrichten
 - [x] 2. Kennt die Vagrant-Befehle
-- [x] 3. Eingerichtete Umgebung ist dokumentiert (Umgebungs-Variablen, Netzwerkplan gezeichnet, Sicherheitsaspekte)
+- [x] 3. Eingerichtete Umgebung ist dokumentiert
 - [x] 4. Funktionsweise getestet inkl. Dokumentation der Testfälle
 - [x] 5. andere, vorgefertigte vm auf eigenem Notebook aufgesetzt
 - [x] 6. Projekt mit Git und Mark Down dokumentiert
@@ -97,3 +97,17 @@ Befehl            | Funktion
 `vagrant destroy` | Stopt und löscht die gesamte VM
 `vagrant -v`      | Zeigt die vagrant Version an
 `vagrant status`  | Gibt den Stataus einer VM aus.
+
+### 3. Eingerichtete Umgebung ist dokumentiert
+In der Umgebung der VM für die LB02 habe ich die folgenden Punkte eingerichetet:
+
+- Webserver Apache installiert
+- Firewall installiert und Regeln erstellt
+- Reverse-Proxy konfiguriert
+- Benutzer / Gruppen erstellt und konfiguriert
+- LDAP installiert und konfiguriert
+- HTTPS freigeschaltet
+
+Dass diese Punkte gemacht wurden, werden Sie dann im Vagrant-File und in der Demo noch sehen.
+
+### 4. Funktionsweise getestet inkl. Dokumentation der Testfälle
