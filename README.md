@@ -133,7 +133,7 @@ Wie man anhand der Dokumentation hier sehen kann, habe ich alles mit Git und Mar
 ### 1. Firewall eingerichtet inkl. Rules
 Unter dem folgenden Screenshot wird der aktuelle Status der Firewall gezeigt. Dort ist auch ersichtlich, welche konfiguration gemacht wurde.
 
-![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/ufw-status.png "Firewall Status")
+![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/ufw_status.png "Firewall Status")
 
 ### 2. Reverse-Proxy eingerichtet
 Im folgenden Screenshot wird die Reverse Procy konfiguration angezeigt. Hier wird die KOnfigurations-Datei angezeigt, welche im Script auch definiert wurde.
