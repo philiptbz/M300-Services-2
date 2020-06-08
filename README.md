@@ -48,6 +48,24 @@ Im unteren Screenshot sehen Sie die Ausgabe des Befehls ```ssh -v git@github.com
 - [x] 3. Dokumentation ist als Mark Down vorhanden
 - [x] 4. Mark down-Editor ausgewählt und eingerichtet
 - [x] 5. Mark down ist strukturiert
+- [x] 6. Wichtige Lernschritte sind dokumentiert
 
 ### 1. GitHub oder Gitlab-Account ist erstellt
 Der Github Account wurde erstellt. Das Profil ist unter dem folgenden Link aufrufbar: ![Github tbztim](https://github.com/tbztim)
+
+### 2. Git-Client wurde verwendet
+Der untere Screenshot zeigt, dass ich den Git Client verwendet habe. Da ich diesen Bereits in einem vorherigen Modul verwendet habe, musste ich diesen nicht nochmals installieren. Dieser war bereits auf meinem Notebook vorhanden.
+
+![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/git-client-window.png "Git-Client-Windows")
+
+### 3. Dokumentation ist als Mark Down vorhanden
+Die Dokumentation ist als Mark Down vorhanden, wie man anhand der README.md Datei sehen kann. Es handelt sich hier um eine .md Datei also wurde hier mit Mark Down gearbeitet.
+
+### 4. Mark down-Editor ausgewählt und eingerichtet
+Als Mark Down-Editor habe ich Visual Studio Code verwendet. Hier musste ich keine konfiguration vornehmen. Das bearbeiten der README.md Datei hat ohne vorkonfiguration bereits funktioniert. Ebenfalls konnte ich die Datei aus dem Visual Studio Code auch immer "pushen".
+
+### 5. Mark down ist strukturiert
+Ich finde, dass mein Mark Down sehr gut strukturiert ist und ich dieses Kriterium erfüllt habe. Ob ein Mark Down strukturiert ist oder nicht, hängt jedoch immer vom Menschen ab. Ich finde hier eben ich habe es gut strukturiert. Andere finden zum Beispiel das meine Struktur nicht gut ist. Dies ist aber abhängig vom Menschen.
+
+### 6. Wichtige Lernschritte sind dokumentiert
+Wichtige Lernschritte habe ich jeweils im Mark Down festgehalten. Dies kann man anhand meiner Dokumentation sehen.
