@@ -151,3 +151,5 @@ Im folgenden Screenshot werden die erstellten Benutzer und Gruppen angezeigt. Zu
 ![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/benutzer-gruppen.png "Benutzer Gruppen")
 
 ### 4. Sicherheitsmassnahmen sind dokumentiert
+
+### 5. Projekt mit Git und Mark Down dokumentiert
