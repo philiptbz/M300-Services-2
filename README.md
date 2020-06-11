@@ -4,10 +4,11 @@ M300 Services von Tim Bühlmann
 Ich habe jeweils diese Kriterien in der Dokumentation eingefügt, welche ich auch gelöst habe. Hier habe ich darauf geschaut, dass mindestens vier Kriterien erledigt wurden.
 
 # Inhaltsverzeichnis
-[1. Kriterium](#1-kriterium)
-[2. Kriterium](#2-kriterium)
-[3. Kriterium](#3-kriterium)
-[4. Kriterium](#4-kriterium)
+- [1. Kriterium](#1-kriterium)
+- [2. Kriterium](#2-kriterium)
+- [3. Kriterium](#3-kriterium)
+- [4. Kriterium](#4-kriterium)
+- [5. Kriterium](#5-kriterium)
 
 
 ## 1. Kriterium
@@ -160,3 +161,34 @@ Die vorgenommenen Sicherheitsmassnahmen sind einerseits im Vagrant-File kommenti
 
 ### 5. Projekt mit Git und Mark Down dokumentiert
 Auch hier, finde ich, dass die einzelnen Schritte in diesem Markdown gut dokumentiert sind. Einige Dinge sind auch im Vagrant-File als Kommentar dokumentiert.
+
+## 5. Kriterium
+- [x] 1. Kreativität
+- [x] 2. Komplexität
+- [x] 3. Umfang
+- [x] 4. Authentifizierung und Autorisierung via LDAP
+- [x] 5. Übungsdokumentation als Vorlage für Modul-Unterlagen erstellt
+- [x] 6. Vergleich Vorwissen - Wissenszuwachs
+- [x] 7. Reflexion
+
+
+### 1. Kreativität
+Ich finde, dass die Kreativität mit meinem Vagrant-File erfüllt wurde. Ich habe hier sehr viele verschiedenen Dinge umgesetzt und einige Dienste zur Verfügung gestellt.
+
+### 2. Komplexität
+Da ich einige Dienste zur Verfügung gestellt habe, finde ich auch, dass mein Vagrant-File die Komplexität erfüllt.
+
+### 3. Umfang
+Ein Vagrant-File mit mehr als 110 Zeilen Code, finde ich schon sehr umfänglich. Meiner Meinung nach, habe ich auch diese Kompetenz erfüllt.
+
+### 4. Authentifizierung und Autorisierung via LDAP
+Die 4. Authentifizierung und Autorisierung via LDAP wurde ab der Zeile 100 im Vagrant-File umgesetzt. Auch hier finde ich, dass ich diese Kompetenz mit bravur erledigt habe.
+
+### 5. Übungsdokumentation als Vorlage für Modul-Unterlagen erstellt
+Ich finde meine Dokumentation könnte als Vorlage verwendet werden. Ich bin der Meinung, dass ich alles sehr gut und sauber dargestellt habe, was ich gemacht habe.
+
+### 6. Vergleich Vorwissen - Wissenszuwachs
+Mein Wissenszuwachs sieht man womöglich anhand der Markdown Dokumentation nicht, jedoch am Vagrant-File. Denn wenn man überlegt, dass wir am Anfang des Moduls nicht einmal wussten, was genau Vagrant ist und ich nun ein Script mit mehr als 110 Zeilen Code erstellt habe, finde ich dass mein Wissenszuwachs um einiges gestiegen ist. Mir macht das Arbeiten mit Vagrant sehr viel spass.
+
+### 7. Reflexion
+Insgesamt hat mir die LB02 sehr gut gefallen. Am Anfang kannte ich die einzelnen Fachbegriffe zu diesem Thema nicht. Nun aber kann ich in vielen Gesprächen zu diesem Thema etwas dazu sagen. Ich bin sehr froh, dass ich diese Lernschritte gemacht habe und diese auch selber sehen kann. Ich werde sicherlich viel Stoff mitnehmen, welchen ich in dieser LB02 und in den jeweiligen Lektionen gelernt habe. Der Einstieg war etwas einfacher, da es sich hauptsächlich um die Einrichtung der Umgebung handelte. Da ich von einem vorherigen Module die einzelnen Tools bereits ein wenig kannte, fiel mir dies etwas leichert. Probleme mit Vagrant hatte ich bis jetzt eigentlich keine. Und wenn ich mal welche haben sollte, finde ich dazu sicherlich etwas im Internet oder kann mir womöglich sogar selber weiterhelfen. Auch in meiner Freizeit konnte ich zu Vagrant einige Dinge lernen. Ich habe einige Tutorials und Crash Courses auf YouTube angeschaut, welche mir auch weitergeholfen haben, um mein Vagrant-Script zu erweitern. Also in allem hat mir diese LB02 sehr viel Spass gemacht. :)
