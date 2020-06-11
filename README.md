@@ -119,6 +119,34 @@ Dass diese Punkte gemacht wurden, werden Sie dann im Vagrant-File und in der Dem
 ### 4. Funktionsweise getestet inkl. Dokumentation der Testfälle
 Die ausgeführten VM's haben bei mir immer sehr gut funtkioniert. Da es sich am Anfang um Beispiele gehandelt hat, haben diese immer funktioniert. Meine eigenen Scripts haben am Anfang nicht immer funktioniert. Doch nach einigen versuchen konnte ich dann auch meine eigenen Scripts zum laufen bringen. Diese haben dann auch immer funktioniert. :)
 
+#### Testfälle:
+| Testfall: 001     | Webserver installation                                                             |
+| ----------------- | ---------------------------------------------------------------------------------- |
+| Ziel:             | Der Webserver apache2 wurde korrekt installiert.                                   |
+| Beschreibung:     | Mit dem Befehl "sudo service apache2 status" den Status des Servers überprüfen.    |
+| Soll-Wert:        | service apache2 is running.                                                        |
+| Ist-Wert:         | service apach2 is running.                                                         |
+| Analyse:          | OK                                                                                 |
+| Weitere Schritte: | -                                                                                  |
+
+| Testfall: 002     | LDAP korrekt installiert                                                           |
+| ----------------- | ---------------------------------------------------------------------------------- |
+| Ziel:             | LDAP wurde richtig installiert.                                                    |
+| Beschreibung:     | Web-GUI von LDAP ist aufrufbar.                                                    |
+| Soll-Wert:        | LDAP-GUI kann aufgerufen und es kann eingeloggt werden.                            |
+| Ist-Wert:         | LDAP-GUI kann aufgerufen und es kann eingeloggt werden.                            |
+| Analyse:          | OK                                                                                 |
+| Weitere Schritte: | -                                                                                  |
+
+| Testfall: 003     | Benutzer ist korrekt der Gruppe zugewiesen.                                                  |
+| ----------------- | ----------------------------------------------------------------------------------           |
+| Ziel:             | Benutzer ist korrekt der Gruppe zugewiesen.                                                  |
+| Beschreibung:     | mit dem Befehl "cat /etc/group" werden die Gruppen und die dazugehörigen Benutzer angezeigt. |
+| Soll-Wert:        | database:db-admin / website:web-admin                                                        |
+| Ist-Wert:         | database:db-admin / website:web-admin                                                        |
+| Analyse:          | OK                                                                                           |
+| Weitere Schritte: | -                                                                                            |
+
 ### 5. andere, vorgefertigte vm auf eigenem Notebook aufgesetzt
 Ich habe noch eine weitere VM auf dem Notebook aufgesetzt. Hierbei habe ich das Vagrant-File, welches unter dem folgenden Pfad liegt ausgeführt.
 
