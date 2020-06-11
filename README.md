@@ -77,12 +77,12 @@ Ich finde, dass mein Mark Down sehr gut strukturiert ist und ich dieses Kriteriu
 Wichtige Lernschritte habe ich jeweils im Mark Down festgehalten. Dies kann man anhand meiner Dokumentation sehen.
 
 ## 3. Kriterium
-- [x] 1. Bestehende vm aus Vagrant-Cloud einrichten
-- [x] 2. Kennt die Vagrant-Befehle
-- [x] 3. Eingerichtete Umgebung ist dokumentiert
-- [x] 4. Funktionsweise getestet inkl. Dokumentation der Testfälle
-- [x] 5. andere, vorgefertigte vm auf eigenem Notebook aufgesetzt
-- [x] 6. Projekt mit Git und Mark Down dokumentiert
+- [x] [1. Bestehende vm aus Vagrant-Cloud einrichten](#1-bestehende-vm-aus-vagrant-cloud-einrichten)
+- [x] [2. Kennt die Vagrant-Befehle](#2-kennt-die-vagrant-befehle)
+- [x] [3. Eingerichtete Umgebung ist dokumentiert](#3-eingerichtete-umgebung-ist-dokumentiert)
+- [x] [4. Funktionsweise getestet inkl. Dokumentation der Testfälle](#4-funktionsweise-getestet-inkl-dokumentation-der-testfälle)
+- [x] [5. andere, vorgefertigte vm auf eigenem Notebook aufgesetzt](#5-andere-vorgefertigte-vm-auf-eigenem-notebook-aufgesetzt)
+- [x] [6. Projekt mit Git und Mark Down dokumentiert](#6-projekt-mit-git-und-mark-down-dokumentiert)
 
 ### 1. Bestehende vm aus Vagrant-Cloud einrichten
 Eine bestehende VM kann aus dem Verzeichnis, indem die VM liegt bzw. indem das Vagrant-File liegt, gestartet werden. Hierzu muss in diesem Verzeichnis die Git-Bash geöffnet werden. Danach muss der folgende Befehl eingegeben werden.
@@ -130,11 +130,11 @@ Diese VM habe ich mit dem Befehl `vagrant up` gestartet. Auch hier musste ich im
 Wie man anhand der Dokumentation hier sehen kann, habe ich alles mit Git und Mark Down schön und sauber aufgeführt.
 
 ## 4. Kriterium
-- [x] 1. Firewall eingerichtet inkl. Rules
-- [x] 2. Reverse-Proxy eingerichtet
-- [x] 3. Benutzer- und Rechtevergabe ist eingerichtet
-- [x] 4. Sicherheitsmassnahmen sind dokumentiert
-- [x] 5. Projekt mit Git und Mark Down dokumentiert
+- [x] [1. Firewall eingerichtet inkl. Rules](#1-firewall-eingerichtet-inkl-rules)
+- [x] [2. Reverse-Proxy eingerichtet](#2-reverse-proxy-eingerichtet)
+- [x] [3. Benutzer- und Rechtevergabe ist eingerichtet](#3-benutzer--und-rechtevergabe-ist-eingerichtet)
+- [x] [4. Sicherheitsmassnahmen sind dokumentiert](#4-sicherheitsmassnahmen-sind-dokumentiert)
+- [x] [5. Projekt mit Git und Mark Down dokumentiert](#5)
 
 ### 1. Firewall eingerichtet inkl. Rules
 Unter dem folgenden Screenshot wird der aktuelle Status der Firewall gezeigt. Dort ist auch ersichtlich, welche konfiguration gemacht wurde.
