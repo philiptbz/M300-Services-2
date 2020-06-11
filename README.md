@@ -12,7 +12,7 @@ Ich habe jeweils diese Kriterien in der Dokumentation eingefügt, welche ich auc
 
 
 ## 1. Kriterium
-- [x] 1. VirtualBox
+- [x] [1. VirtualBox](#1-virtualbox)
 - [x] 2. Vagrant
 - [x] 3. Visualstudio-Code
 - [x] 4. Git-Client
