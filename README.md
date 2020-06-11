@@ -13,10 +13,10 @@ Ich habe jeweils diese Kriterien in der Dokumentation eingefügt, welche ich auc
 
 ## 1. Kriterium
 - [x] [1. VirtualBox](#1-virtualbox)
-- [x] 2. Vagrant
-- [x] 3. Visualstudio-Code
-- [x] 4. Git-Client
-- [x] 5. SSH-Key für Client erstellen
+- [x] [2. Vagrant](#2-vagrant)
+- [x] [3. Visualstudio-Code](#3-visualstudio-code)
+- [x] [4. Git-Client](#4-git-client)
+- [x] [5. SSH-Key für Client erstellen](#5-ssh-key-für-client-erstellen)
 
 ### 1. Virtualbox
 
@@ -49,12 +49,12 @@ Im unteren Screenshot sehen Sie die Ausgabe des Befehls ```ssh -v git@github.com
 ![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/ssh-key.png "SSH-Key")
 
 ## 2. Kriterium
-- [x] 1. GitHub oder Gitlab-Account ist erstellt
-- [x] 2. Git-Client wurde verwendet
-- [x] 3. Dokumentation ist als Mark Down vorhanden
-- [x] 4. Mark down-Editor ausgewählt und eingerichtet
-- [x] 5. Mark down ist strukturiert
-- [x] 6. Wichtige Lernschritte sind dokumentiert
+- [x] [1. GitHub oder Gitlab-Account ist erstellt](#1-github-oder-gitlab-account-ist-erstellt)
+- [x] [2. Git-Client wurde verwendet](#2-git-client-wurde-verwendet)
+- [x] [3. Dokumentation ist als Mark Down vorhanden](#3-dokumentation-ist-als-mark-down-vorhanden)
+- [x] [4. Mark down-Editor ausgewählt und eingerichtet](#4-mark-down-editor-ausgewählt-und-eingerichtet)
+- [x] [5. Mark down ist strukturiert](#5-mark-down-ist-strukturiert)
+- [x] [6. Wichtige Lernschritte sind dokumentiert](#6-wichtige-lernschritte-sind-dokumentiert)
 
 ### 1. GitHub oder Gitlab-Account ist erstellt
 Der Github Account wurde erstellt. Das Profil ist unter dem folgenden Link aufrufbar: ![Github tbztim](https://github.com/tbztim)
