@@ -151,5 +151,12 @@ Im folgenden Screenshot werden die erstellten Benutzer und Gruppen angezeigt. Zu
 ![](https://github.com/tbztim/M300-Services/blob/master/00-Bilder/benutzer-gruppen.png "Benutzer Gruppen")
 
 ### 4. Sicherheitsmassnahmen sind dokumentiert
+Die vorgenommenen Sicherheitsmassnahmen sind einerseits im Vagrant-File kommentiert und andererseits, werde ich diese unten auch nochmals kurz aufführen.
+
+- Firewall aktiv
+- Firewall-Rules erstellt
+- Proxy installiert und aktiviert
+- Reverse Proxy konfiguriert
 
 ### 5. Projekt mit Git und Mark Down dokumentiert
+Auch hier, finde ich, dass die einzelnen Schritte in diesem Markdown gut dokumentiert sind. Einige Dinge sind auch im Vagrant-File als Kommentar dokumentiert.
