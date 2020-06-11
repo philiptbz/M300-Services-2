@@ -134,7 +134,7 @@ Wie man anhand der Dokumentation hier sehen kann, habe ich alles mit Git und Mar
 - [x] [2. Reverse-Proxy eingerichtet](#2-reverse-proxy-eingerichtet)
 - [x] [3. Benutzer- und Rechtevergabe ist eingerichtet](#3-benutzer--und-rechtevergabe-ist-eingerichtet)
 - [x] [4. Sicherheitsmassnahmen sind dokumentiert](#4-sicherheitsmassnahmen-sind-dokumentiert)
-- [x] [5. Projekt mit Git und Mark Down dokumentiert](#5)
+- [x] [5. Projekt mit Git und Mark Down dokumentiert](#5-projekt-mit-git-und-mark-down-dokumentiert)
 
 ### 1. Firewall eingerichtet inkl. Rules
 Unter dem folgenden Screenshot wird der aktuelle Status der Firewall gezeigt. Dort ist auch ersichtlich, welche konfiguration gemacht wurde.
@@ -163,13 +163,13 @@ Die vorgenommenen Sicherheitsmassnahmen sind einerseits im Vagrant-File kommenti
 Auch hier, finde ich, dass die einzelnen Schritte in diesem Markdown gut dokumentiert sind. Einige Dinge sind auch im Vagrant-File als Kommentar dokumentiert.
 
 ## 5. Kriterium
-- [x] 1. Kreativität
-- [x] 2. Komplexität
-- [x] 3. Umfang
-- [x] 4. Authentifizierung und Autorisierung via LDAP
-- [x] 5. Übungsdokumentation als Vorlage für Modul-Unterlagen erstellt
-- [x] 6. Vergleich Vorwissen - Wissenszuwachs
-- [x] 7. Reflexion
+- [x] [1. Kreativität](#1-kreativität)
+- [x] [2. Komplexität](#2-komplexität)
+- [x] [3. Umfang](#3-umfang)
+- [x] [4. Authentifizierung und Autorisierung via LDAP](#4-authentifizierung-und-autorisierung-via-ldap)
+- [x] [5. Übungsdokumentation als Vorlage für Modul-Unterlagen erstellt](#5-übungsdokumentation-als-vorlage-für-modul-unterlagen-erstellt)
+- [x] [6. Vergleich Vorwissen - Wissenszuwachs](#6-vergleich-vorwissen---wissenszuwachs)
+- [x] [7. Reflexion](#7-reflexion)
 
 
 ### 1. Kreativität
