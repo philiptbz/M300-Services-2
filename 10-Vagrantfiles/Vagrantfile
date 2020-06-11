@@ -1,0 +1,114 @@
+Vagrant.configure("2") do |config|
+
+  # Variabeln definieren
+  proxy_configuration = "proxym300-services.conf"
+
+  # Betriebssystem Einstellungen
+  config.vm.box = "ubuntu/xenial64"
+
+  # Maschinen Einstellungen
+  config.vm.hostname = "tim-apache"
+
+  # Netzwerk Einstellungen
+  config.vm.network "forwarded_port", guest:80, host:8080, auto_correct: true
+
+  # Ordnersynchronisation
+  config.vm.synced_folder ".", "/var/www/html"  
+
+  # Provider Einstellungen
+  config.vm.provider "virtualbox" do |vb|
+      vb.memory = "512" 
+  end
+
+  # Shell Befehle
+  config.vm.provision "shell", inline: <<-SHELL
+
+    # Updates
+    sudo apt-get update
+ 
+    # Webserver installation
+    sudo apt-get install apache2 -y
+
+    # Firewall installation
+    sudo apt-get install ufw -y
+
+    # Proxy installation
+    sudo apt-get install libxml2-dev -y
+   
+    # Firewall Regeln, Einstellungen
+    sudo ufw deny out to any
+
+    # SSH Port öffnen
+    sudo ufw allow from any to any port 22
+
+    # HTTP Port öffnen
+    sudo ufw allow from any to any port 80
+    sudo ufw enable
+
+    # Proxymodule aktivieren
+    sudo a2enmod proxy
+    sudo a2enmod proxy_html
+    sudo a2enmod proxy_http
+
+    # Proxykonfiguration
+    echo "echo '<VirtualHost *:80>' >> /etc/apache2/sites-available/#{proxy_configuration}" | sudo bash
+    echo "echo '  ServerName m300-services' >> /etc/apache2/sites-available/#{proxy_configuration}" | sudo bash
+    echo "echo '	ServerAlias www.m300-services '>> /etc/apache2/sites-available/#{proxy_configuration}" | sudo bash
+    echo "echo '	</Location>' >> /etc/apache2/sites-available/#{proxy_configuration}" | sudo bash
+    echo "echo '</VirtualHost>' >> /etc/apache2/sites-available/#{proxy_configuration}" | sudo bash
+
+    sudo a2ensite /etc/apache2/sites-available/#{proxy_configuration}
+
+    # Gruppenordner festlegen
+    mkdir -p /grp/database
+    mkdir -p /grp/website
+
+    # Benutzer erstellen
+    useradd db-admin -p password
+    useradd web-admin -p password
+
+    # Gruppe erstellen
+    groupadd database
+    groupadd website
+
+    #Benutzer der Gruppe zuweisen
+    usermod -aG database db-admin
+    usermod -aG website web-admin
+
+    #Gruppenordner Berechtigungen festlegen
+    chmod 770 /grp/website -R
+    chown root:web-admin /grp/website/ -R
+
+    chmod 770 /grp/database -R
+    chown root:db-admin /grp/database/ -R
+
+    # LDAP Installation
+		sudo apt-get -y install debconf-utils apache2 nmap
+		sudo a2enmod cgi	
+		sudo a2enmod ldap	
+		sudo a2enmod authnz_ldap
+   
+    # Webserver neustarten
+    sudo service apache2 restart
+
+    # HTTPS Freischalten
+    sudo ufw allow from any to any port 443
+    sudo a2ensite default-ssl.conf
+    sudo a2enmod ssl
+    sudo a2dissite 000-default.conf
+
+    # LDAP Konfigurieren
+		sudo mkdir -p  /var/www/html/data && sudo chown www-data:www-data /var/www/html/data 
+		export DEBIAN_FRONTEND=noninteractive
+		sudo debconf-set-selections <<<'slapd slapd/internal/generated_adminpw password admin'
+		sudo debconf-set-selections <<<'slapd slapd/password2 password admin'
+		sudo debconf-set-selections <<<'slapd slapd/internal/adminpw password admin'
+		sudo debconf-set-selections <<<'slapd slapd/password1 password admin'
+		sudo apt-get install -y slapd ldap-utils phpldapadmin
+		sudo sed -i -e's/dc=m300,dc=ch/dc=services/' /etc/phpldapadmin/config.php
+
+    #Webserver neustarten
+    sudo service apache2 restart
+
+SHELL
+end
