@@ -112,7 +112,7 @@ In der Umgebung der VM für die LB02 habe ich die folgenden Punkte eingerichetet
 - Reverse-Proxy konfiguriert
 - Benutzer / Gruppen erstellt und konfiguriert
 - LDAP installiert und konfiguriert
-- HTTPS freigeschalte
+- HTTPS freigeschaltet
 
 Dass diese Punkte gemacht wurden, werden Sie dann im Vagrant-File und in der Demo noch sehen.
 
